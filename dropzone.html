@@ -2,53 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Drop Zone | ShadowPulse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drop Zone</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     body {
-      background: #0a0a0a;
-      color: #eee;
+      background-color: #0a0a0a;
+      color: #ff0066;
       font-family: 'Orbitron', sans-serif;
       text-align: center;
-      padding: 2rem;
+      padding: 5rem 2rem;
     }
     h1 {
-      color: #00ffaa;
-      text-shadow: 0 0 15px #00ffaa88;
       font-size: 2.5rem;
+      margin-bottom: 1.5rem;
     }
     p {
-      margin-top: 1rem;
-      color: #ccc;
       font-size: 1.1rem;
+      margin-bottom: 3rem;
     }
-    .drop-card {
-      margin-top: 3rem;
-      border: 1px solid #222;
-      border-radius: 20px;
-      padding: 2rem;
-      background: #111;
-      box-shadow: 0 0 20px #00ffaa33;
-    }
-    a {
+    a.button {
       display: inline-block;
-      margin-top: 2rem;
-      color: #00ffaa;
+      padding: 1rem 2rem;
+      background-color: #ff0066;
+      color: #0a0a0a;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #cc0052;
     }
   </style>
 </head>
 <body>
-  <h1>DROP ZONE</h1>
-  <p>Exclusive content. Private launches. No noise — just access.</p>
+  <h1>WELCOME TO THE DROP ZONE</h1>
+  <p>Exclusive drops. Phantom-core energy. First come, first served.</p>
 
-  <div class="drop-card">
-    <h2>Next Drop: Titan Black Bracelet</h2>
-    <p>Launches: June 1st, 2025</p>
-    <a href="index.html">Back to Main</a>
-  </div>
+  <a href="index.html" class="button">BACK TO MAIN</a>
 </body>
 </html>
