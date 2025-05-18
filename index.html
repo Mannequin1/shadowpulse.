@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ShadowPulse</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f0f0f;
-      color: #f4f4f4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    nav {
-      width: 100%;
-      background: #1a1a1a;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 20px 0;
-      box-shadow: 0 2px 5px #000;
-    }
-
-    nav a {
-      color: #f4f4f4;
-      text-decoration: none;
-      font-weight: bold;
-      letter-spacing: 1px;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #00ffff;
-    }
-
-    main {
-      max-width: 800px;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.2em;
-      line-height: 1.6;
-      color: #ccc;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ShadowPulse</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+  body {
+    margin: 0;
+    background: #0a0a0a;
+    color: #eee;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  nav {
+    background: #111;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px #00aaff44;
+  }
+  nav a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  header {
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #222;
+  }
+  header h1 {
+    font-size: 3rem;
+    color: #00aaff;
+    text-shadow: 0 0 10px #00aaff88;
+    margin: 0;
+  }
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  h2 {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    line-height: 1.5;
+    color: #ccc;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #222;
+  }
+</style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="labs.html">Labs</a>
-    <a href="pulse.html">Pulse</a>
-  </nav>
-
-  <main>
-    <h1>Welcome to ShadowPulse</h1>
-    <p>This is your futuristic base. Navigate using the menu above.</p>
-  </main>
+<nav>
+  <a href="/index.html">Home</a>
+  <a href="/labs.html">ShadowPulse Labs</a>
+  <!-- Add other nav links here if you want -->
+</nav>
+<header>
+  <h1>ShadowPulse</h1>
+  <p>Futuristic vibes. Shadow tools coming soon.</p>
+</header>
+<main>
+  <section>
+    <h2>Welcome</h2>
+    <p>This is the main page of ShadowPulse, your portal to cutting-edge tools and future vibes.</p>
+  </section>
+</main>
+<footer>
+  &copy; 2025 ShadowPulse. All rights reserved.
+</footer>
 </body>
 </html>
