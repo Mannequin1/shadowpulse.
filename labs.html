@@ -1,99 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>ShadowPulse Labs</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-  body {
-    margin: 0;
-    background: #0a0a0a;
-    color: #eee;
-    font-family: 'Orbitron', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  header {
-    padding: 3rem 2rem 1rem;
-    text-align: center;
-    border-bottom: 1px solid #222;
-  }
-  header h1 {
-    font-size: 3rem;
-    color: #00ffaa;
-    text-shadow: 0 0 10px #00ffaa88;
-    margin: 0;
-  }
-  header p {
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
-    color: #bbb;
-  }
-  main {
-    flex: 1;
-    padding: 2rem;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  section {
-    margin-bottom: 3rem;
-  }
-  h2 {
-    color: #00ffaa;
-    border-bottom: 2px solid #00ffaa;
-    padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
-  }
-  p {
-    line-height: 1.5;
-    color: #ccc;
-  }
-  footer {
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 0.9rem;
-    color: #555;
-    border-top: 1px solid #222;
-  }
-  a {
-    color: #00ffaa;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  .lab-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  .lab-list li {
-    margin-bottom: 1rem;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shadowpulse Labs</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a;
+      font-family: 'Courier New', Courier, monospace;
+      color: #00ffcc;
+      text-align: center;
+    }
+    nav {
+      background-color: #1a1a1a;
+      padding: 1em;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    h1 {
+      margin-top: 2em;
+      font-size: 2.8em;
+      letter-spacing: 2px;
+    }
+    .module {
+      background: #111;
+      border: 1px solid #00ffcc33;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+    .module h2 {
+      margin-top: 0;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>ShadowPulse Labs</h1>
-  <p>Where ideas spark the future</p>
-</header>
-<main>
-  <section id="experiments">
-    <h2>Current Experiments</h2>
-    <ul class="lab-list">
-      <li><a href="#">Quantum Interface Mockup</a></li>
-      <li><a href="#">Neon Glitch Visualizer</a></li>
-      <li><a href="#">AI Soundscape Generator</a></li>
-    </ul>
-  </section>
-  <section id="coming-soon">
-    <h2>Coming Soon</h2>
-    <p>Stay tuned for more mind-bending projects and exclusive sneak peeks.</p>
-  </section>
-</main>
-<footer>
-  &copy; 2025 ShadowPulse Labs. All rights reserved.
-</footer>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="labs.html">Labs</a>
+  </nav>
+
+  <h1>Shadowpulse Labs</h1>
+
+  <div class="module">
+    <h2>Experiment #001</h2>
+    <p>Status: ACTIVE</p>
+    <p>Prototype AI system decoding silence into signals. Running silent ops.</p>
+  </div>
+
+  <div class="module">
+    <h2>Experiment #002</h2>
+    <p>Status: PENDING</p>
+    <p>Phantom trading algorithm. Precision under pressure.</p>
+  </div>
+
 </body>
 </html>
